@@ -163,7 +163,6 @@ while leftCasino == False:
             print ("Sorry, the casino took your money. You walked away with", playerChips, "chips. :(")
         break
     try:
-        val = int(wager)
         wager = int(wager)            
     except:
             print("Sorry, the input was not an integer.")
